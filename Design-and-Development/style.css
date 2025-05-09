@@ -1,0 +1,107 @@
+tw-* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: hsl(270, 20%, 96%);
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.info-card {
+  display: flex;
+  flex-direction: column;
+  width: 210px;
+  max-height: 100%;
+  height: 450px;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: white;
+  margin-bottom: 40px;
+}
+.info-card-head {
+  height: 60px;
+  width: 100%;
+  border-radius: 20px 20px 8px 8px;
+}
+.info-card-camera {
+  height: 20px;
+  width: 130px;
+  border-radius: 0px 0px 30px 30px;
+  background-color: white;
+}
+.info-card-text {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+.name {
+  font-size: 12px;
+}
+.availability {
+  font-size: 8px;
+  color: lightgray;
+}
+.ellipsis-1 {
+  margin-right: 15px;
+}
+.info-card-text.message-left {
+  font-size: 18px;
+}
+.phone-body {
+  overflow: auto;
+  width: 100%;
+  flex-grow: 1;
+  border-radius: 0px 0px 20px 20px;
+  background-color: hsl(270, 20%, 96%);
+}
+.pictures {
+  margin-top: 7px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.pictures img {
+  width: 38px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+.payment {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 140px;
+  margin-left: 10px;
+  margin-top: 7px;
+  color: white;
+  background-image: linear-gradient(
+    to left,
+    hsl(264, 100%, 61%),
+    hsl(293, 100%, 63%)
+  );
+  padding: 7px;
+  border-radius: 10px 10px 10px 5px;
+}
+.payment-left {
+  display: flex;
+  align-items: center;
+  width: 80%;
+}
+.payment-left i {
+  color: hsl(270, 20%, 96%);
+}
+.payment p {
+  font-size: 8px;
+  margin-left: 5px;
+}
+.payment .amount {
+  font-size: 14px;
+  font-weight: 700;
+}
