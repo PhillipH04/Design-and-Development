@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js defer"></script>
+  <title>Dynamic Shopping Cart</title>
+</head>
+<body>
+  <h1>Dynamic Shopping Cart</h1>
+  <div id="product-container">
+    <input type="text" id="product-name" placeholder="Product Name">
+    <input type="number" id="product-price" placeholder="Product Price">
+    <button id="add-product">Add Product</button>
+    <div id="Powerful Produce">
+     <button data-name="Lemon" data-price="1.50">Lemon ($1.50)</button>
+     <button data-name="Cucumber" data-price="2.00">Cucumber ($2.00)</button>
+     <button data-name="Mango" data-price="1.75">Mango ($1.75)</button>
+     <button data-name="Squash" data-price="1.50">Squash ($1.50)</button>
+     <button data-name="Peach" data-price="1.00">Peach ($1.00)</button>
+    </div>
+  </div>
+  <ul id="cart"></ul>
+  <h3>Total: $<span id="total-price">0</span></h3>
+ 
+  <script src="script.js"></script>
+</body>
+</html>
